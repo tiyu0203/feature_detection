@@ -1,0 +1,4 @@
+numpy==1.21.1
+opencv-contrib-python==4.5.3.56
+pyglet==1.5.18
+pyrealsense2==2.48.0.3381
