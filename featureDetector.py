@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread('screen/image1_flip.jpg')
-img2 = cv2.imread('train/train_image1.jpeg')
+img1 = cv2.imread('screen/image3_flip.jpg')
+img2 = cv2.imread('train/train_image3_crop.jpg')
 
 orb = cv2.ORB_create(nfeatures=1000)
 
