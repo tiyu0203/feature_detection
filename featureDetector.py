@@ -1,15 +1,15 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread('screen/image1.jpg')
-img2 = cv2.imread('train/train_image1.jpg')
+img1 = cv2.imread('screen/image1_flip.jpg')
+img2 = cv2.imread('train/train_image1.jpeg')
 
 orb = cv2.ORB_create(nfeatures=1000)
 
 kp1, des1 = orb.detectAndCompute(img1, None)
 kp2, des2 = orb.detectAndCompute(img2, None)
 
-print(des1[0])
+#print(des1[0])
 
 imgKp1 = cv2.drawKeypoints(img1,kp1, None)
 imgKp2 = cv2.drawKeypoints(img2,kp2, None)
